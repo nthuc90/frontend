@@ -1,0 +1,398 @@
+/* @media (min-width:320px) and (max-width:479px)  màn điện thoại*/
+/* @media (min-width:480px) and (max-width:767px)  màn giữa điện thoại và ipad*/
+/* @media (min-width:768px) and (max-width:1199px)  màn ipad*/
+/* @media (min-width:1200px) and (max-width:1399px)  màn desktop hd 1366*/
+/* @media (min-width:1400px) and (max-width:1750px)  màn desktop hd+ 1600*/
+/* màn 1920 full hd*/
+
+@media(max-width:1169px) {
+    .header{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .navbar {
+        display: none;
+    }
+    .active {
+        display: block;
+    }
+    .header .icon-menu {
+        display: block;
+        position: relative;
+        left: 50px;
+        top: 1px;
+    }
+    .header .icon-menu i{
+        font-size: 35px;
+    }
+    .header .modal-box{
+        top: 85px;
+    }
+    .header .modal-box .navbar-mob {
+        display: block;
+        margin-top: 25px;
+        line-height: 3;
+    }
+    .navbar-mob {
+        text-align: center;
+    }
+    .navbar-mob a.here {
+        color: #21232d;
+    }
+    .navbar-mob a{
+        color: #ffffff;
+    }
+    .header .button {
+        display: none;
+    }
+    .logo img {
+        /* margin: -28% 0 0 -23%; */
+        margin: 6px 0 0 8px;
+    }
+    .modal-box .button-mob{
+        width: 140px;
+        height: 50px;
+        font-size: 18px;
+        margin: 50px auto;
+        line-height: 64px;
+    }
+    .header .btn{
+        border-radius: 8px;
+        color: #ffffff;
+        background-color:#4f6fe6 ;
+        border: none;
+        width: 140px;
+        height:50px;
+       
+    }
+    .header .btn-for{
+        border-radius: 8px;
+        border: 2px solid;
+        background:#395ce0;
+        width: 140px;
+        height:50px;
+        cursor: pointer;
+        color: #ffffff;
+        margin-left: 10px;
+    }
+}
+@media(min-width:320px) and (max-width:479px) {
+    .container{
+        overflow: hidden;
+        max-width: 320px;
+        margin: 0 auto;
+    }
+    .banner{
+        grid-template-columns: 1fr;
+    }
+    /* .banner-img img{
+
+    } */
+    .banner-text{
+        padding: 10px;
+        margin-top: -86px;
+    }
+    .banner-text h1{
+        font-size: 35px;
+    }
+    .banner-text p {
+        font-size: 20px;
+    }
+    .about-zikjob{
+        grid-template-columns: 1fr;
+        /* margin: 0 0 0 -67px; */
+    }
+    .description{
+        margin: 0;
+        padding: 8px;
+    }
+    .description h1{
+        font-size: 35px;
+    }
+    .description h3{
+        font-size: 20px;
+    }
+    .description p{
+        line-height: 2;
+    }
+    .desc-img img{
+        padding-top: 75px;
+    }
+    /* .cards{
+
+    } */
+    .grid{
+        grid-template-columns: 1fr;
+    }
+    .list-cards{
+        display: block;
+    }
+    .list-cards .card{
+        margin: 0 0 20px 0;
+    }
+    /* .card-main{
+
+    } */
+    .card-main img{
+        width: 50%;
+    }
+    .card-main h3{
+        top: 37px;
+        left: 40px;
+    }
+    .card-main .card-body p{
+        /* font-size: 15px; */
+        line-height: 2;
+    }
+    .title h2{
+        font-size: 24px;
+    }
+    .title p{
+        /* font-size: 15px; */
+    }
+    .steps-grid-4{
+        display: block;
+    }
+    .steps-grid-4::before{
+        left: 18px;
+        height: 100%;
+        width: 1px;
+    }
+    .step{
+        margin: 0 0 21px 38px;
+        position: relative;
+    }
+    .step::before{
+        top: 0;
+        left: -30px
+    }
+    .steps-grid-4::after{
+        top: auto;
+        left: 14px;
+        bottom: -23px;
+        right: auto;
+        transform: rotate(90deg);
+    }
+    .step a{
+        font-size: 14px;
+    }
+    .form-container{
+        display: block;
+        width: 100%;
+    }
+    .form-input input{
+        width: 89%;
+        margin: 0;
+    }
+    .footer{
+        grid-template-columns: 1fr;
+        justify-content: center;
+    }
+    .footer-nav ul{
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+@media(min-width:480px) and (max-width:767px){
+    .container{
+        max-width: 480px;
+    }
+    .banner{
+       grid-template-columns: 1fr; 
+    }
+    .banner-text{
+        padding: 16px;
+        margin-top: -119px;
+    }
+    .banner-text h1{
+        font-size: 35px;
+    }
+    .banner-text p{
+        font-size: 20px;
+    }
+    .about-zikjob{
+        grid-template-columns: 1fr;
+    }
+    .description{
+        margin: 0;
+        padding: 15px;
+    }
+    .description h1{
+        font-size: 35px;
+    }
+    .description p {
+        line-height: 2;
+    }
+    .desc-img img{
+        padding-top: 50px;
+    }
+    .grid{
+        grid-template-columns: 1fr;
+    }
+    .list-cards{
+        display: block;
+    }
+    .list-cards .card{
+        margin: 0 0 35px 0;
+    }
+    .card-main img{
+        width: 37%;
+    }
+    .card-main .card-body p{
+        line-height: 2;
+    }
+    .title h2{
+        font-size: 35px;
+    }
+    .steps-grid-4{
+        display: block;
+    }
+    .steps-grid-4::before{
+        left: 50px;
+        height: 100%;
+        width: 1px;
+    }
+    .step{
+        /* margin: 0 0 21px 38px; */
+        margin: 0 0 21px 100px;
+        position: relative;
+    }
+    .step::before{
+        top: 0;
+        left: -62px
+    }
+    .steps-grid-4::after{
+        top: auto;
+        left: 45px;
+        bottom: -23px;
+        right: auto;
+        transform: rotate(90deg);
+    }
+    .form-container{
+        display: block;
+        width: 94%;
+    }
+    .form-input input{
+        width: 89%;
+        
+    }
+    .footer{
+        grid-template-columns: 1fr;
+        justify-content: center;
+    }
+    .footer-nav{
+
+    }
+    .footer-nav ul{
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+}
+@media (min-width:768px) and (max-width:1199px){
+    .container{
+        max-width: 768px;
+        margin: 0 auto;
+    }
+    .banner{
+        grid-template-columns: 1fr;
+    }
+    .banner-text{
+        padding: 14px;
+        margin-top: -150px;
+    }
+    .about-zikjob{
+        grid-template-columns: 1fr;
+        padding: 15px;
+    }
+    .description{
+        margin: 0;
+    }
+    .desc-img img{
+        padding-top: 65px;
+    }
+    .cards{
+        margin: 0 0 0 22px;
+    }
+    .card-main h3{
+        top: 57px;
+        left: 59px;
+    }
+    .grid{
+        grid-template-columns: 1fr;
+    }
+    /* .list-cards{
+
+    } */
+    /* .steps-grid-4{
+      
+    } */
+    .steps-grid-4::before{
+        left: auto;
+        top: 0;
+        right: 21px;
+        bottom: auto;
+    }
+    .step::before{
+        top: -48px;
+        bottom: auto;
+    }
+    .step{
+        /* margin: 0 0 21px 38px; */
+        /* margin: 0 0 21px 100px; */
+        margin: 35px 0 0 10px;
+        position: relative;
+    }
+    .steps-grid-4::after{
+        top: -12px;
+        left: auto;
+        right: 15px;
+        bottom: auto;
+    }
+    .footer{
+        grid-template-columns: 1fr;
+    }
+}
+@media (min-width:1200px) and (max-width:1399px){
+    .steps-grid-4::after{
+        bottom: auto;
+        right: 1px;
+    }
+}
+@media (min-width:1400px) and (max-width:1750px){
+    /* .steps-grid-4::before{
+
+    } */
+    .steps-grid-4::after{
+        top: 0;
+        left: auto;
+        bottom: auto;
+        right: 3px;
+    }
+}
+@media(min-width:1920px){
+    .steps-grid-4::before{
+        width: 91%;
+        left: 100px;
+    }
+    .steps-grid-4::after{
+        top: 0;
+        left: auto;
+        right: 73px;
+        bottom: auto;
+    }
+}
+/* @media(min-width:1400px){
+    .container{
+        max-width: 1400px;
+    }
+} */
+/* @media(min-width:1280px){
+    .container{
+        max-width: 1280px;
+    }
+} */
+
+
